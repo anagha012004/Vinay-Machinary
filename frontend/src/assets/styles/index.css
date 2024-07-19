@@ -51,3 +51,21 @@ table th {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+.navy-navbar {
+  background-color: #032B44; /* Navy blue color */
+}
+.carousel-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.carousel-text {
+  width: 80%;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-text p {
+  margin-bottom: 0;
+}

@@ -31,7 +31,7 @@ const logoutHandler=async ()=>{
 };
   return (
     <header>
-        <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
+        <Navbar bg="custom" variant="dark" expand="md" collapseOnSelect className="navy-navbar">
             <Container>
                 <LinkContainer to="/">
                 <Navbar.Brand >
