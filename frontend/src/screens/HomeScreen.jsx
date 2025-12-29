@@ -15,7 +15,7 @@ const{data,isLoading,error}=useGetProductsQuery({keyword, pageNumber});
 
 
   return (
-    <>
+    <> 
     {!keyword ? <ProductCarousel/>:( <Link to='/' className='btn btn-light mb-4'>Go Back</Link>)}
     {isLoading?(
      <Loader/>
