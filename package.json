@@ -12,6 +12,7 @@
     "data:import": "node backend/seeder.js",
     "data:destroy": "node backend/seeder.js -d",
     "prod:seed": "node backend/prodSeeder.js",
+    "test:db": "node backend/testDb.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Anagha Badhe",
